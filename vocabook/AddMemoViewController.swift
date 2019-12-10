@@ -58,6 +58,9 @@ class AddMemoViewController: UIViewController {
 
         self.present(alert, animated: true, completion:nil)
     }
+    @IBAction func backpage(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 }
 
 

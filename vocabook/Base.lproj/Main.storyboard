@@ -34,6 +34,9 @@
                                 <rect key="frame" x="130" y="106" width="46" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="FzV-bA-GIp" kind="presentation" modalPresentationStyle="fullScreen" id="H3s-aN-Ic3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -107,6 +110,14 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="save:" destination="FzV-bA-GIp" eventType="touchUpInside" id="MYz-yh-0gh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5p-1z-YVa">
+                                <rect key="frame" x="20" y="44" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="backpage:" destination="FzV-bA-GIp" eventType="touchUpInside" id="xxa-pL-OhW"/>
                                 </connections>
                             </button>
                         </subviews>
