@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23879BDF93C362F8A30ACC71 /* Pods_vocabookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0610F0F70E1B9BFE24E8BC /* Pods_vocabookTests.framework */; };
+		97D960B65F076FC5A0965346 /* Pods_vocabook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A6A43A5A25086747FFAF2A /* Pods_vocabook.framework */; };
+		AC37C6D1F0CB05351B4AF0BB /* Pods_vocabook_vocabookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5705B5B4422FC7E8A37D3A1 /* Pods_vocabook_vocabookUITests.framework */; };
+		E46C91562396996C00124066 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E46C91552396996B00124066 /* GoogleService-Info.plist */; };
 		E4714A9B238F4301003A80AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4714A9A238F4301003A80AE /* AppDelegate.swift */; };
 		E4714A9D238F4301003A80AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4714A9C238F4301003A80AE /* SceneDelegate.swift */; };
 		E4714A9F238F4301003A80AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4714A9E238F4301003A80AE /* ViewController.swift */; };
@@ -35,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049FF0C5FD8A1DDBAAFAFD45 /* Pods-vocabook-vocabookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vocabook-vocabookUITests.debug.xcconfig"; path = "Target Support Files/Pods-vocabook-vocabookUITests/Pods-vocabook-vocabookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		18DA12E4D4C2005C32111256 /* Pods-vocabook-vocabookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vocabook-vocabookUITests.release.xcconfig"; path = "Target Support Files/Pods-vocabook-vocabookUITests/Pods-vocabook-vocabookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2608BED61D885341DE794E66 /* Pods-vocabook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vocabook.release.xcconfig"; path = "Target Support Files/Pods-vocabook/Pods-vocabook.release.xcconfig"; sourceTree = "<group>"; };
+		33A6A43A5A25086747FFAF2A /* Pods_vocabook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vocabook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F54585AD0E16EB3690F2DD /* Pods-vocabookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vocabookTests.release.xcconfig"; path = "Target Support Files/Pods-vocabookTests/Pods-vocabookTests.release.xcconfig"; sourceTree = "<group>"; };
+		B48152F5AAE835580D32E072 /* Pods-vocabook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vocabook.debug.xcconfig"; path = "Target Support Files/Pods-vocabook/Pods-vocabook.debug.xcconfig"; sourceTree = "<group>"; };
+		C5705B5B4422FC7E8A37D3A1 /* Pods_vocabook_vocabookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vocabook_vocabookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD27D8BA0C733907E07FE03A /* Pods-vocabookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vocabookTests.debug.xcconfig"; path = "Target Support Files/Pods-vocabookTests/Pods-vocabookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E46C91552396996B00124066 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E4714A97238F4301003A80AE /* vocabook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vocabook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4714A9A238F4301003A80AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4714A9C238F4301003A80AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,7 @@
 		E4714AB8238F4304003A80AE /* vocabookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vocabookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4714ABC238F4304003A80AE /* vocabookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocabookUITests.swift; sourceTree = "<group>"; };
 		E4714ABE238F4304003A80AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0610F0F70E1B9BFE24E8BC /* Pods_vocabookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vocabookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D960B65F076FC5A0965346 /* Pods_vocabook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23879BDF93C362F8A30ACC71 /* Pods_vocabookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC37C6D1F0CB05351B4AF0BB /* Pods_vocabook_vocabookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15724441A2640E5108185A22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33A6A43A5A25086747FFAF2A /* Pods_vocabook.framework */,
+				C5705B5B4422FC7E8A37D3A1 /* Pods_vocabook_vocabookUITests.framework */,
+				EE0610F0F70E1B9BFE24E8BC /* Pods_vocabookTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DDD6421DB0B56C29D962FEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B48152F5AAE835580D32E072 /* Pods-vocabook.debug.xcconfig */,
+				2608BED61D885341DE794E66 /* Pods-vocabook.release.xcconfig */,
+				049FF0C5FD8A1DDBAAFAFD45 /* Pods-vocabook-vocabookUITests.debug.xcconfig */,
+				18DA12E4D4C2005C32111256 /* Pods-vocabook-vocabookUITests.release.xcconfig */,
+				CD27D8BA0C733907E07FE03A /* Pods-vocabookTests.debug.xcconfig */,
+				60F54585AD0E16EB3690F2DD /* Pods-vocabookTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E4714A8E238F4301003A80AE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				E4714AB0238F4304003A80AE /* vocabookTests */,
 				E4714ABB238F4304003A80AE /* vocabookUITests */,
 				E4714A98238F4301003A80AE /* Products */,
+				2DDD6421DB0B56C29D962FEA /* Pods */,
+				15724441A2640E5108185A22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +148,7 @@
 				E4714AA3238F4304003A80AE /* Assets.xcassets */,
 				E4714AA5238F4304003A80AE /* LaunchScreen.storyboard */,
 				E4714AA8238F4304003A80AE /* Info.plist */,
+				E46C91552396996B00124066 /* GoogleService-Info.plist */,
 			);
 			path = vocabook;
 			sourceTree = "<group>";
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4714AC1238F4304003A80AE /* Build configuration list for PBXNativeTarget "vocabook" */;
 			buildPhases = (
+				C54894BDD5592B63A1DF9A47 /* [CP] Check Pods Manifest.lock */,
 				E4714A93238F4301003A80AE /* Sources */,
 				E4714A94238F4301003A80AE /* Frameworks */,
 				E4714A95238F4301003A80AE /* Resources */,
+				948B5124F72A570B5F442080 /* [CP] Embed Pods Frameworks */,
+				4C9170BDA3AB7589968164D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4714AC4238F4304003A80AE /* Build configuration list for PBXNativeTarget "vocabookTests" */;
 			buildPhases = (
+				ACFA330A413B8BDF0DE3523A /* [CP] Check Pods Manifest.lock */,
 				E4714AA9238F4304003A80AE /* Sources */,
 				E4714AAA238F4304003A80AE /* Frameworks */,
 				E4714AAB238F4304003A80AE /* Resources */,
@@ -170,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4714AC7238F4304003A80AE /* Build configuration list for PBXNativeTarget "vocabookUITests" */;
 			buildPhases = (
+				4C8AF6C2EC58A714A37D2A6A /* [CP] Check Pods Manifest.lock */,
 				E4714AB4238F4304003A80AE /* Sources */,
 				E4714AB5238F4304003A80AE /* Frameworks */,
 				E4714AB6238F4304003A80AE /* Resources */,
+				5B07295B0FF71FC82B5D5744 /* [CP] Embed Pods Frameworks */,
+				54C84E9EDBC12A6508073DA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4714AA7238F4304003A80AE /* LaunchScreen.storyboard in Resources */,
+				E46C91562396996C00124066 /* GoogleService-Info.plist in Resources */,
 				E4714AA4238F4304003A80AE /* Assets.xcassets in Resources */,
 				E4714AA2238F4301003A80AE /* Main.storyboard in Resources */,
 			);
@@ -253,6 +304,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C8AF6C2EC58A714A37D2A6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vocabook-vocabookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C9170BDA3AB7589968164D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vocabook/Pods-vocabook-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vocabook/Pods-vocabook-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vocabook/Pods-vocabook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54C84E9EDBC12A6508073DA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vocabook-vocabookUITests/Pods-vocabook-vocabookUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vocabook-vocabookUITests/Pods-vocabook-vocabookUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vocabook-vocabookUITests/Pods-vocabook-vocabookUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B07295B0FF71FC82B5D5744 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vocabook-vocabookUITests/Pods-vocabook-vocabookUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vocabook-vocabookUITests/Pods-vocabook-vocabookUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vocabook-vocabookUITests/Pods-vocabook-vocabookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		948B5124F72A570B5F442080 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vocabook/Pods-vocabook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vocabook/Pods-vocabook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vocabook/Pods-vocabook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACFA330A413B8BDF0DE3523A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vocabookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C54894BDD5592B63A1DF9A47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vocabook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E4714A93238F4301003A80AE /* Sources */ = {
@@ -432,6 +620,7 @@
 		};
 		E4714AC2238F4304003A80AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B48152F5AAE835580D32E072 /* Pods-vocabook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +639,7 @@
 		};
 		E4714AC3238F4304003A80AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2608BED61D885341DE794E66 /* Pods-vocabook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +658,7 @@
 		};
 		E4714AC5238F4304003A80AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD27D8BA0C733907E07FE03A /* Pods-vocabookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +681,7 @@
 		};
 		E4714AC6238F4304003A80AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F54585AD0E16EB3690F2DD /* Pods-vocabookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +704,7 @@
 		};
 		E4714AC8238F4304003A80AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049FF0C5FD8A1DDBAAFAFD45 /* Pods-vocabook-vocabookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +725,7 @@
 		};
 		E4714AC9238F4304003A80AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18DA12E4D4C2005C32111256 /* Pods-vocabook-vocabookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
