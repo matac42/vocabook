@@ -1,16 +1,15 @@
 //
-//  AddViewController.swift
+//  AddMemoViewController.swift
 //  vocabook
 //
-//  Created by 高江洲　壱星 on 2019/12/04.
+//  Created by 高江洲　壱星 on 2019/12/11.
 //  Copyright © 2019 Matayoshi Yuto. All rights reserved.
 //
 
 import UIKit
 
 class AddMemoViewController: UIViewController {
-    
-    
+
     @IBOutlet weak var memoTextView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,20 +58,6 @@ class AddMemoViewController: UIViewController {
         self.present(alert, animated: true, completion:nil)
     }
     @IBAction func backpage(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
+          self.dismiss(animated: true, completion: nil)
+      }
 }
-
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-

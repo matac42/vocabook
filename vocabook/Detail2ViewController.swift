@@ -1,8 +1,8 @@
 //
-//  DetailViewController.swift
+//  DetaileViewController.swift
 //  vocabook
 //
-//  Created by 高江洲　壱星 on 2019/12/04.
+//  Created by 高江洲　壱星 on 2019/12/11.
 //  Copyright © 2019 Matayoshi Yuto. All rights reserved.
 //
 
@@ -32,4 +32,5 @@ class DetailViewController: UIViewController {
             self.navigationController?.popViewController(animated: true)
         }
     }
+ 
 }

@@ -2,16 +2,14 @@
 //  ViewController.swift
 //  vocabook
 //
-//  Created by 又吉　雄斗 on 2019/11/28.
+//  Created by 高江洲　壱星 on 2019/12/11.
 //  Copyright © 2019 Matayoshi Yuto. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
-    
-    
-    @IBOutlet weak var memoTableView: UITableView!
+
+class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {    @IBOutlet weak var memoTableView: UITableView!
     var memoArray = [String]()
 
     let ud = UserDefaults.standard
@@ -21,8 +19,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
 
 
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "memoCell", for: indexPath)
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {        let cell = tableView.dequeueReusableCell(withIdentifier: "memoCell", for: indexPath)
         cell.textLabel?.text = memoArray[indexPath.row]
         return cell
     }
@@ -48,7 +45,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if segue.identifier == "toDetail"{
             //detailViewControllerを取得
             //as! DetailViewControllerでダウンキャストしている
-            let detailViewController = segue.destination as! DetailViewController
+            let detailViewController = segue.destination as! Detail2ViewController
             //遷移前に選ばれているCellが取得できる
             let selectedIndexPath = memoTableView.indexPathForSelectedRow!
             detailViewController.selectedMemo = memoArray[selectedIndexPath.row]
@@ -78,4 +75,3 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         }
     }
 }
-
