@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class Detail2ViewController: UIViewController {
     @IBOutlet weak var memoTextView: UITextView!
 
     var selectedRow:Int!
@@ -32,5 +32,4 @@ class DetailViewController: UIViewController {
             self.navigationController?.popViewController(animated: true)
         }
     }
- 
 }

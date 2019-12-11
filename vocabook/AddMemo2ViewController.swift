@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AddMemoViewController: UIViewController {
+class AddMemo2ViewController: UIViewController {
 
     @IBOutlet weak var memoTextView: UITextView!
     override func viewDidLoad() {
@@ -57,7 +57,4 @@ class AddMemoViewController: UIViewController {
 
         self.present(alert, animated: true, completion:nil)
     }
-    @IBAction func backpage(_ sender: Any) {
-          self.dismiss(animated: true, completion: nil)
-      }
-}
+    }
